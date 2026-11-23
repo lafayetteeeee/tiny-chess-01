@@ -45,9 +45,9 @@ def gen(p,cp=False):
     if t&0x88:continue
     tv=b[t]
     if d==fw:
-     if cp or tv:continue
+     if tv:continue
      if(t>>4)==pr:pm(t)
-     else:
+     elif not cp:
       ap(sq|t<<7)
       if(sq>>4)==6-5*w and not b[t+fw]:ap(sq|(t+fw)<<7|1<<17)
     elif tv and(tv>0)==w:
