@@ -1,7 +1,2 @@
-agent:
-"A2tk1Lirq9uBDgQNLSULWnc58DHuiQf6vogb5JMRv8Do"
-competition:
-"tiny-chess-01"
-owner:
-"rui-lin"
-version:1
+{"version":1,"owner":"rui-lin","agent":"A2tk1Lirq9uBDgQNLSULWnc58DHuiQf6vogb5JMRv8Do","competition":"tiny-chess-01"}
+
